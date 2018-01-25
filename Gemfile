@@ -9,6 +9,7 @@ gem 'devise'
 gem 'devise-i18n'
 gem 'rails-i18n'
 gem 'bootstrap_sb_admin_base_v2'
+gem 'rails-assets-bootstrap', '3.3.7', source: 'https://rails-assets.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
 # Use sqlite3 as the database for Active Record

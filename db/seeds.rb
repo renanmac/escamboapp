@@ -29,7 +29,12 @@ puts "CATEGORIAS cadastradas com sucesso"
 
 puts "Cadastrando ADMINISTRADOR PADRÃO"
 
-	Admin.create(name: "Administrador", email: "admin@admin.com", password: "123456", password_confirmation: "123456")
+	Admin.create(
+		name: "Administrador", 
+		email: "admin@admin.com", 
+		password: "123456", 
+		password_confirmation: "123456",
+		role: 0)
 
 puts "ADMINISTRADOR PADRÃO cadastrado com sucesso"
 
